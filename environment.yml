@@ -1,0 +1,20 @@
+name: fao-eu27
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pandas=2.1
+  - numpy=1.26
+  - matplotlib=3.8
+  - seaborn=0.13
+  - scikit-learn=1.4
+  - scipy=1.12
+  - requests=2.31
+  - geopandas=0.14
+  - jupyter=1.0
+  - ipykernel=6.29
+  - pytest=8.1
+  - pip:
+  - statsmodels>=0.14.4
