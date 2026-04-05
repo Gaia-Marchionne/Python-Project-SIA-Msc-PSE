@@ -27,9 +27,10 @@ Python Project/
 ```
 ---
 ## Installation
-
-pip install -r requirements.txt
-
+Before Starting to run the code, you need to install Python 3 environment
+    **pip install -r requirements.txt**
+If pip does not work you need to precise in the terminal:
+    **python3 -m pip install requirements.txt**
 
 ---
 ## Data Sources
