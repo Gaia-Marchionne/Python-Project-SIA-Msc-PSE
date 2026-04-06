@@ -22,7 +22,8 @@ Python Project/
 ├── tests/
 │   ├── test_data_loader.py     
 ├── data/                           
-└── requirements.txt
+├── requirements.txt
+└── environment.yml
 ```
 ---
 ## Installation
