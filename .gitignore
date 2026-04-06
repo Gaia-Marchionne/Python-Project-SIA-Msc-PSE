@@ -1,0 +1,17 @@
+# Fichiers Excel
+*.xlsx
+*.xls
+*.csv
+
+# Fichiers système macOS
+.DS_Store
+
+# Fichiers temporaires R
+.Rhistory
+.RData
+
+# Environnements Conda et Virtuels
+.conda/
+env/
+venv/
+ENV/
