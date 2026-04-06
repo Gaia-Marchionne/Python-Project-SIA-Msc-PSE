@@ -15,3 +15,7 @@
 env/
 venv/
 ENV/
+
+# Supprime pycache
+**/__pycache__/
+*.py[cod]
