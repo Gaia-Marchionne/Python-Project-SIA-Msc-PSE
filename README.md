@@ -11,7 +11,6 @@ An analysis on agricultural crop yield (tonnes/hectare) across the 27 EU member 
 What drives differences in wheat yield across EU27 countries, and how much of the variance is explained by nitrogen use, harvested area, and pesticide use?
 ---
 ## Project Structure
-
 ```
 Python Project/
 ├── Fao Eu Crop Analysis.ipynb   
@@ -27,10 +26,21 @@ Python Project/
 ```
 ---
 ## Installation
-Before Starting to run the code, you need to install Python 3 environment
-    **pip install -r requirements.txt**
+Before starting to run the code, you need to set up the environment. You can choose one of the following methods:
+Option 1: Conda 
+```bash
+conda env create -f environment.yml
+conda activate fao-eu27
+python -m ipykernel install --user --name fao-eu27 --display-name "Python (fao-eu27)"
+```
+ Option 2: Python 3 Pip environment
+ ```bash
+    pip install -r requirements.txt
+```
 If pip does not work you need to precise in the terminal:
-    **python3 -m pip install requirements.txt**
+ ```bash
+    python3 -m pip install -r requirements.txt
+```
 
 ---
 ## Data Sources
